@@ -1,0 +1,36 @@
+/* PHASE 1: Header */
+body {
+    font-weight: 400;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+.header {
+    background-color: red;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    margin: auto;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    justify-content: left;
+}
+
+.header-nav {
+    background-color: green;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list a {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
